@@ -19,7 +19,11 @@ Public virtual class CustomerAPI  {
     
          System.debug('This is constructor');
     }   
-      System.debug('I have done my changes');
+    System.debug('I have done my changes');
+    public static  String SetName() {
+      System.debug('Shatrughna Salunke');
+    }
 }
+
 
 
