@@ -10,14 +10,15 @@ Public virtual class CustomerAPI  {
       
          System.debug('Set Name');
       }
-      
       //Last modified by shatrughna Slaunke
       private void setName(String Name) {
-         
          This.Name= Name;
          System.debug();
       }
-      
+    public CustomerAPI ()  {
+    
+         System.debug('This is constructor');
+    }   
       System.debug('I have done my changes');
 }
 
