@@ -17,6 +17,11 @@ Public virtual class CustomerAPI  {
          This.Name= Name;
          System.debug();
       }
+      
+    public CustomerAPI ()  {
+    
+         System.debug('This is constructor');
+    }   
 }
 
 
